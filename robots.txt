@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://germania.co.in/sitemap.xml

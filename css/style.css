@@ -1,0 +1,84 @@
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f8f8f8;
+  color: #222;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.header {
+  background: #003366;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.2rem;
+}
+
+.header p {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+.nav {
+  background: #0055a5;
+  text-align: center;
+  padding: 0.75rem 0;
+}
+
+.nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.why-us {
+  background: #e9e9e9;
+  padding: 2rem 0;
+}
+
+.why-us ul {
+  list-style-type: square;
+  padding-left: 2rem;
+}
+
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
