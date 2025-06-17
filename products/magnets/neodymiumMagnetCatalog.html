@@ -22,6 +22,19 @@
       padding: 1rem;
       text-align: center;
     }
+    nav {
+      background-color: #34495e;
+      padding: 0.5rem 1rem;
+    }
+    nav .container {
+      display: flex;
+      gap: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 0.75rem;
+    }
     .product-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -46,7 +59,7 @@
       color: #333;
     }
   </style>
-<script type="application/ld+json">
+  <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ProductCollection",
@@ -119,9 +132,7 @@
         "url": "https://germania.co.in/products/magnets/neodymiumMagnetCatalog.html"
       }
     }
-  ]
-}
-},
+  ],
   "breadcrumb": {
     "@type": "BreadcrumbList",
     "itemListElement": [
@@ -167,13 +178,22 @@
       "contactType": "Customer Support"
     }
   }
-</script>
+}
+  </script>
 </head>
 <body>
   <header>
     <p style="margin: 0; font-size: 0.9rem; text-align: left; padding-left: 1rem;">Germania</p>
     <h1>Neodymium Magnet - Product Catalog</h1>
   </header>
+  <nav class="nav">
+    <div class="container">
+      <a href="/index.html">Home</a>
+      <a href="/products/">Products</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </div>
+  </nav>
   <main>
     <section class="product-grid">
       <div class="product-card">
